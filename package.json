@@ -1,0 +1,34 @@
+{
+  "name": "hubot-famous-quotes",
+  "version": "1.0.0",
+  "description": "A package for Hubot that looks up famous quotes.",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/schottkey7/hubot-famous-quotes.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "quotes",
+    "quote"
+  ],
+  "author": "schottkey7 <schottkey@gmail.com>",
+  "contributors": [
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schottkey7hubot-famous-quotes/issues"
+  },
+  "homepage": "https://github.com/schottkey7/hubot-famous-quotes#readme",
+  "dependencies": {
+    "hubot": "^2.11.0",
+    "unirest": "^0.4.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

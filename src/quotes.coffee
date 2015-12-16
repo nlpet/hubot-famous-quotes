@@ -32,10 +32,10 @@ module.exports = (robot) ->
       header('X-Mashape-Key', process.env.HUBOT_MASHAPE_KEY).
       header('Accept', 'text/plain').
       end (result) ->
-        answer = result.body.list[0]
+        answer = result.body
         if typeof answer == 'undefined'
-          response = "Could not find definition. Sorry dummy."
+          response = "Could not grab a quote, sorry!"
         else
-          response = "*Definition:*\n#{answer.definition}\n*Example:*\n#{answer.example}"
+          response = "*Quote:*\n#{answer.quote}\n*Author:*\n#{answer.author}\n*Category:*\n#{answer.category}"
         msg.send response
         return

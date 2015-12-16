@@ -16,7 +16,7 @@
 #
 # Commands:
 #   hubot quote (returns a random quote)
-#   hubot quote science (returns a science-related quote)
+#   hubot quote famous (returns a famous quote)
 #
 # Author:
 #   schottkey7
@@ -32,7 +32,7 @@ module.exports = (robot) ->
       header('X-Mashape-Key', process.env.HUBOT_MASHAPE_KEY).
       header('Accept', 'text/plain').
       end (result) ->
-        answer = result.body
+        answer = JSON.parse(result.body)
         if typeof answer == 'undefined'
           response = "Could not grab a quote, sorry!"
         else

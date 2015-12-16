@@ -1,4 +1,4 @@
-# hubot-urban-dictionary
+# hubot-famous-quotes
 An npm package for Hubot that allows you to get random quotes from [Andruxnet](https://andruxnet-random-famous-quotes.p.mashape.com).
 
 # API used

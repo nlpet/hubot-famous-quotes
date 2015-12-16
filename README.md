@@ -10,7 +10,7 @@ to use this package. Once you have signed up:
 
 * Add a new application
 * Go to the
-  [Mashape Urban Dictionary API](https://market.mashape.com/andruxnet/random-famous-quotes)
+  [Mashape Random Famous Quotes API](https://market.mashape.com/andruxnet/random-famous-quotes)
   to create a X-Mashape-Key for your new application
 * Grab your X-Mashape-Key from your curl REQUEST EXAMPLE
 * Add your key to your enviornment variables with the name HUBOT_MASHAPE_KEY

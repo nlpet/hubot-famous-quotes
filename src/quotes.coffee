@@ -36,6 +36,6 @@ module.exports = (robot) ->
         if typeof answer == 'undefined'
           response = "Could not grab a quote, sorry!"
         else
-          response = "*Quote:*\n#{answer.quote}\n*Author:*\n#{answer.author}\n*Category:*\n#{answer.category}"
+          response = ">*Quote:* #{answer.quote}\n>*Author:* #{answer.author}\n>*Category:* #{answer.category}"
         msg.send response
         return
